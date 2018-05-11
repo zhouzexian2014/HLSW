@@ -1,0 +1,5 @@
+package demo1.zzx_demo1.conf;
+
+public class DataSourceConfig {
+
+}

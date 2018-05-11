@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/zhouzexian/myworkspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+359443751.index
+845483076.index
+1061962227.index
+2544445793.index
+1615138004.index
+995284793.index

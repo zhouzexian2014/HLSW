@@ -1,0 +1,18 @@
+package demo1.zzx_demo1.service;
+
+import org.springframework.stereotype.Service;
+
+import demo1.zzx_demo1.entity.User;
+
+@Service
+public class UserServiceImpl implements UserService{
+
+	@Override
+	public User getUserById(Long id) {
+		User user = new User();
+		user.setId(id);
+		user.setName("zzx");
+		return user;
+	}
+
+}

@@ -1,0 +1,7 @@
+package demo1.zzx_demo1.entity;
+
+public class User {
+	private Long id;
+	private String name;
+
+}

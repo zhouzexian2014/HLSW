@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Built-By: zhouzexian
+Build-Jdk: 9.0.1
+Implementation-Title: zzx-demo1
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: demo1
+Implementation-URL: http://maven.apache.org
+Created-By: Maven Integration for Eclipse
+
