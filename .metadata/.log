@@ -2492,3 +2492,20 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references clos
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2018-05-04 07:46:51.581
 !MESSAGE The POM for com.ibeetl:beetl-framework-starter:jar:2.3.2 is missing, no dependency information available
+
+!ENTRY org.eclipse.jdt.debug 4 125 2018-05-12 14:00:34.001
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 0
+com.sun.jdi.VMOutOfMemoryException
+	at org.eclipse.jdi.internal.MirrorImpl.defaultReplyErrorHandler(MirrorImpl.java:285)
+	at org.eclipse.jdi.internal.ObjectReferenceImpl.referenceType(ObjectReferenceImpl.java:528)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.determineIfDaemonThread(JDIThread.java:571)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.initialize(JDIThread.java:350)
+	at org.eclipse.jdt.internal.debug.core.model.JDIThread.<init>(JDIThread.java:313)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.newThread(JDIDebugTarget.java:660)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget.createThread(JDIDebugTarget.java:636)
+	at org.eclipse.jdt.internal.debug.core.model.JDIDebugTarget$ThreadStartHandler.handleEvent(JDIDebugTarget.java:2354)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.dispatch(EventDispatcher.java:152)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher.access$0(EventDispatcher.java:100)
+	at org.eclipse.jdt.internal.debug.core.EventDispatcher$1.run(EventDispatcher.java:250)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;zzx-demo1/src/main/resources/config/system.dev.properties&apos; to &apos;application.properties&apos;" description="Rename resource &apos;system.dev.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/config/system.dev.properties" name="application.properties" stamp="1526104791708" updateReferences="true"/>
+</session>
